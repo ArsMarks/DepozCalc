@@ -9,7 +9,6 @@ import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 public class MainForm {
-	
 	private JFrame frame;
 
 	/**
@@ -27,10 +26,6 @@ public class MainForm {
 			}
 		});
 	}
-	
-	/**
-	 * Create the application.
-	 */
 	public MainForm() {
 		initialize();
 	}
@@ -66,7 +61,6 @@ public class MainForm {
 		});
 		btnNewButton_1.setBounds(102, 133, 191, 51);
 		frame.getContentPane().add(btnNewButton_1);
-		
 		
 	}
 }
